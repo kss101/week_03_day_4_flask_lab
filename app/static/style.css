@@ -43,25 +43,31 @@ body{
     display: flex;
     width: 75%;
     background-color: skyblue;
-    padding: 1em;
+    border-radius: 15px;
     margin: auto;   
 }
 
-.event{
+.events p{
     border-radius: 15px;
     border: 3px;
-    border-color: slategrey;
+    padding: 15px;
+    background-color: slategrey;
+    margin: auto;
+    width: 90%;
 }
+
 #what_we_do img{
     flex: 33%;
 }
+
 .text_panel {
     display: flex;
     flex-direction: column;
     padding: 1em;
+    border-style: solid;
     border-radius: 15px;
-    border: 3px;
-    border-color: slategrey;
+    border-width: 3px;
+    border-color: black;
     background-color: slategrey;
 }
 
