@@ -1,0 +1,71 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#top_nav {
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: steelblue;
+    justify-content: space-between;
+}
+
+#top_nav > ul > li {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+#top_nav a{
+    color: white;
+}
+
+#who_we_are {
+    display: flex;
+    width: 75%;
+    background-color: skyblue;
+    padding: 1em;
+    margin: auto;
+}
+
+#who_we_are img{
+    flex: 33%;
+}
+
+#what_we_do{
+    display: flex;
+    width: 75%;
+    background-color: skyblue;
+    padding: 1em;
+    margin: auto;
+}
+
+.events{
+    display: flex;
+    width: 75%;
+    background-color: skyblue;
+    padding: 1em;
+    margin: auto;   
+}
+
+.event{
+    border-radius: 15px;
+    border: 3px;
+    border-color: slategrey;
+}
+#what_we_do img{
+    flex: 33%;
+}
+.text_panel {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 15px;
+    border: 3px;
+    border-color: slategrey;
+    background-color: slategrey;
+}
+
+img {
+    border-radius: 15px;
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+      <title>{{ title }} - Kurt's Events</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <nav id="top_nav">
+        <h1>Kurt's Events Planner</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/events">Events</a></li>
+        </ul>
+      </nav>
+        <hr>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>
